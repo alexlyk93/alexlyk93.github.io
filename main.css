@@ -1,11 +1,22 @@
 body {
-    background: #999;
+    background: white;
     font-family: arial;
 }
 
-h1, h2, li {
-    color: #555;
+h1 {
+    background: blue;
+    color:white;
+    padding: 20px;
 }
+
+
+
+
+header {
+    background: black;
+    color: white;
+}
+
 
 a{
     color: green;
