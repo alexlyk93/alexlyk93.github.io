@@ -1,5 +1,6 @@
 body {
     background-color: #eee;
+    padding: 0.7cm;
 }
 
 div {
@@ -13,8 +14,8 @@ div {
     text-transform: capitalize;
     color: black;
     background-color:white;
-    /*letter-spacing: normal*/;
-    /*word-spacing: normal*/;
+    /*letter-spacing: normal;*/
+    /*word-spacing: normal*/
     line-height: 15px;
     padding: 0.1cm;
 }
