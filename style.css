@@ -5,17 +5,17 @@ body {
 
 h1 {
     font-family: arial, "Times New Roman";
-    font-size: 22px;
+    font-size: 30px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: 150;
     text-align: left;
     text-decoration: none;
     text-indent: 30px;
     text-transform: capitalize;
     color: black;
     background-color:white;
-    letter-spacing: normal;
-    word-spacing: normal;
+    /*letter-spacing: normal*/;
+    /*word-spacing: normal*/;
     line-height: 40px;
 }
 
