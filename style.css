@@ -2,6 +2,10 @@ body {
     background-color: #eee;
 }
 
+.frame {
+    padding: 1cm;
+}
+
 div h1 h3{
     font-family: arial, "Times New Roman";
     font-size: 20px;
@@ -17,22 +21,6 @@ div h1 h3{
     /*word-spacing: 10px;*/
     line-height: 20px;
     padding: 1cm;
-}
-
-div h4{
-    font-family: arial, "Times New Roman";
-    font-size: 10px;
-    font-style: italic;
-    font-weight: 100;
-    text-align: right;
-    text-decoration: none;
-    text-indent: 30px;
-    text-transform: none;
-    color: black;
-    background-color:white;
-    /*letter-spacing: 10px;*/
-    /*word-spacing: 10px;*/
-    line-height: 10px;
 }
 
 a {
