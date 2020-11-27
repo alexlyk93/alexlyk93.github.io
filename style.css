@@ -1,6 +1,10 @@
+body {
+    background-color: #eee;
+}
+
 div {
     font-family: arial, "Times New Roman";
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
     font-weight: 100;
     text-align: left;
@@ -11,7 +15,7 @@ div {
     background-color:white;
     /*letter-spacing: 10px;*/
     /*word-spacing: 10px;*/
-    line-height: 40px;
+    line-height: 20px;
     padding: 1cm;
 }
 
@@ -28,23 +32,11 @@ div h5{
     background-color:white;
     /*letter-spacing: 10px;*/
     /*word-spacing: 10px;*/
-    line-height: 40px;
-    padding: 1cm;
+    line-height: 10px;
 }
 
 a {
     text-decoration: none;
-}
-
-
-make no boarder
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: #eee;
 }
 
 footer {
