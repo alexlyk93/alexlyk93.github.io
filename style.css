@@ -172,7 +172,7 @@ header .header-cases {
 /*INDEX*/
 .index-banner {
   width: 100%;
-  height: calc(100vh - 100px);
+  height: calc(100vh - 1100px);
   background-image: url('img/banner.jpg');
   background-repeat: no-repeat;
   background-position: center;
