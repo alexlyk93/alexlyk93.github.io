@@ -321,8 +321,19 @@ footer ul li a{
   line-height: 40px;
 }
 
+footer ul li p{
+  font-family: Catamaran;
+  font-size: 24px;
+  color: #fff;
+  line-height: 40px;
+}
+
+.footer-links-main {
+  display: table-cell;
+}
+
 .footer-links-cases {
-  display: none;
+  display: table-cell;
 }
 
 .footer-sm {
@@ -344,10 +355,11 @@ footer ul li a{
     padding: 30px;
   }
 
-  footer ul li p{
+  footer ul li p {
     font-family: Catamaran;
     font-size: 24px;
     color: #fff;
     line-height: 40px;
   }
+
 }
