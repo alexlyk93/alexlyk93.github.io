@@ -206,21 +206,75 @@ header .header-cases {
   text-shadow: 2px 2px 8px #111;
 }
 
-.index-links div {
+.index-box1 div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 200px;
+  background-color: #f2f2f2;
+}
+
+.index-box2 div {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
   height: 100px;
   background-color: #f2f2f2;
 }
 
-.index-links div h3 {
+.index-box3 div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #f2f2f2;
+}
+
+.index-box4 div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #f2f2f2;
+}
+
+.index-box5 div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #f2f2f2;
+}
+
+.index-box6 div {
+  margin: 16px 16px 0;
+  width: calc(100% - 32px);
+  height: 100px;
+  background-color: #f2f2f2;
+}
+
+.wrapper div h3 {
   font-family: Catamaran;
   font-size: 28px;
   font-weight: 600;
-  line-height: 100px;
+  line-height: 70px;
   color: #111;
-  text-align: center;
-  text-transform: uppercase;
+  padding-left: 10px;
+  text-transform: capitalize;
+}
+
+.wrapper div p {
+  font-family: Catamaran;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-left: 10px;
+  color: #111;
+  text-align: left;
+}
+
+.wrapper div a {
+  font-family: Catamaran;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-left: 10px;
+  text-align: left;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -281,7 +335,7 @@ footer ul li a{
   margin-bottom: 10px;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 500px) {
   .footer-links-cases {
     display: block;
   }
