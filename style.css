@@ -177,7 +177,7 @@ header .header-cases {
 /*INDEX*/
 .index-banner {
   width: 100%;
-  height: calc(100vh - 1160px);
+  height: calc(90vh - 1160px);
   background-image: url('img/banner2.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -202,8 +202,8 @@ header .header-cases {
 
 .index-banner h1 {
   font-family: Cormorant Garamond;
-  font-size: 28px;
-  font-weight: 100;
+  font-size: 30px;
+  font-weight: 120;
   font-style: italic;
   line-height: 40px;
   color: #fff;
@@ -215,13 +215,14 @@ header .header-cases {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 10px;
   width:50%;
 }
 
 .index-box1 div {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
-  height: 200px;
+  height: 600px;
   background-color: #f2f2f2;
 }
 
@@ -235,28 +236,21 @@ header .header-cases {
 .index-box3 div {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
-  height: 100px;
+  height: 600px;
   background-color: #f2f2f2;
 }
 
 .index-box4 div {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
-  height: 100px;
+  height: 600px;
   background-color: #f2f2f2;
 }
 
 .index-box5 div {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
-  height: 100px;
-  background-color: #f2f2f2;
-}
-
-.index-box6 div {
-  margin: 16px 16px 0;
-  width: calc(100% - 32px);
-  height: 100px;
+  height: 600px;
   background-color: #f2f2f2;
 }
 
@@ -277,6 +271,20 @@ header .header-cases {
   line-height: 20px;
   padding-left: 10px;
   padding-right: 10px;
+  padding-bottom: 10px;
+  color: #111;
+  text-align: justify;
+}
+
+.wrapper div ul li{
+  font-family: Catamaran;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style: inside;
   color: #111;
   text-align: justify;
 }
