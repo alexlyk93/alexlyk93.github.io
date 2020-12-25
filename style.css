@@ -222,35 +222,35 @@ header .header-cases {
 .index-box1 div {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
-  height: 600px;
+  height: 100%;
   background-color: #f2f2f2;
 }
 
 .index-box2 div {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
-  height: 600px;
+  height: 100%;
   background-color: #f2f2f2;
 }
 
 .index-box3 div {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
-  height: 600px;
+  height: 100%;
   background-color: #f2f2f2;
 }
 
 .index-box4 div {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
-  height: 600px;
+  height: 100%;
   background-color: #f2f2f2;
 }
 
 .index-box5 div {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
-  height: 600px;
+  height: 100%;
   background-color: #f2f2f2;
 }
 
