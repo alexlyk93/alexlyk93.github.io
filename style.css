@@ -107,6 +107,11 @@ input, select {
   text-decoration: none;
 }
 
+a:hover {
+  color: #008080;
+  text-decoration: underline;
+}
+
 header {
   background-color: #fff;
   width: 100%;
@@ -142,7 +147,7 @@ header nav ul a{
   font-family: Catamaran;
   font-size: 16px;
   color: #111;
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 header .header-cases {
@@ -172,8 +177,8 @@ header .header-cases {
 /*INDEX*/
 .index-banner {
   width: 100%;
-  height: calc(100vh - 1100px);
-  background-image: url('img/banner.jpg');
+  height: calc(100vh - 1160px);
+  background-image: url('img/banner2.jpg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -206,6 +211,13 @@ header .header-cases {
   text-shadow: 2px 2px 8px #111;
 }
 
+.imges-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:50%;
+}
+
 .index-box1 div {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
@@ -216,7 +228,7 @@ header .header-cases {
 .index-box2 div {
   margin: 16px 16px 0;
   width: calc(100% - 32px);
-  height: 100px;
+  height: 600px;
   background-color: #f2f2f2;
 }
 
@@ -252,20 +264,21 @@ header .header-cases {
   font-family: Catamaran;
   font-size: 28px;
   font-weight: 600;
-  line-height: 70px;
+  line-height: 50px;
   color: #111;
   padding-left: 10px;
   text-transform: capitalize;
 }
 
-.wrapper div p {
+.wrapper div p{
   font-family: Catamaran;
   font-size: 18px;
   font-weight: 500;
   line-height: 20px;
   padding-left: 10px;
+  padding-right: 10px;
   color: #111;
-  text-align: left;
+  text-align: justify;
 }
 
 .wrapper div a {
@@ -274,7 +287,8 @@ header .header-cases {
   font-weight: 500;
   line-height: 20px;
   padding-left: 10px;
-  text-align: left;
+  padding-right: 10px;
+  text-align: justify;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -314,36 +328,34 @@ footer ul li {
   list-style: none;
 }
 
-footer ul li a{
+footer ul li p {
   font-family: Catamaran;
   font-size: 24px;
   color: #fff;
   line-height: 40px;
 }
 
-footer ul li p{
+
+footer ul li a {
   font-family: Catamaran;
   font-size: 24px;
+  color: #fff;
+  line-height: 40px;
+}
+
+footer ul li i {
+  font-family: Catamaran;
+  font-size: 30px;
   color: #fff;
   line-height: 40px;
 }
 
 .footer-links-main {
-  display: table-cell;
+  display: none;
 }
 
 .footer-links-cases {
   display: table-cell;
-}
-
-.footer-sm {
-  width: 50px;
-  float: right;
-}
-
-.footer-sm img{
-  width: 100%;
-  margin-bottom: 10px;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -352,7 +364,7 @@ footer ul li p{
   }
 
   footer ul {
-    padding: 30px;
+    padding: 10px;
   }
 
   footer ul li p {
