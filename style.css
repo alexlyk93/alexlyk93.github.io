@@ -320,10 +320,10 @@ header .header-cases {
 
 /*FOOTER*/
 footer {
-  width: calc(100% - 80px);
-  padding: 40px 40px;
+  width: calc(100% - 30px);
+  padding: 15px 15px;
   margin-top: 20px;
-  background-color: #111;
+  background-color: #110;
   overflow: hidden;
 }
 
@@ -336,6 +336,7 @@ footer ul {
 footer ul li {
   display: block;
   list-style: none;
+  line-height: 45px;
 }
 
 footer ul li p {
@@ -351,6 +352,7 @@ footer ul li a {
   font-size: 24px;
   color: #fff;
   line-height: 40px;
+  margin-left: 40px;
 }
 
 footer ul li i {
@@ -358,6 +360,7 @@ footer ul li i {
   font-size: 30px;
   color: #fff;
   line-height: 40px;
+  margin-left: 60px;
 }
 
 .footer-links-main {
