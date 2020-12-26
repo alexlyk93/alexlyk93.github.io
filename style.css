@@ -203,7 +203,7 @@ header .header-cases {
 .index-banner h1 {
   font-family: Cormorant Garamond;
   font-size: 30px;
-  font-weight: 120;
+  font-weight: 420;
   font-style: italic;
   line-height: 40px;
   color: #fff;
@@ -271,7 +271,7 @@ header .header-cases {
   line-height: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
   color: #111;
   text-align: justify;
 }
@@ -283,7 +283,9 @@ header .header-cases {
   line-height: 20px;
   padding-top: 5px;
   padding-left: 10px;
-  padding-right: 10px;
+  padding-right: 15px;
+  padding-left: 2em;
+  text-indent: -1.5em;
   list-style: inside;
   color: #111;
   text-align: justify;
