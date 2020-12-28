@@ -27,7 +27,7 @@
           <h2>Data Science Project</h2>
           <h1>by Alex Lee Yuen Kong</h1>
         </div>
-      </section>
+      <!--</section>
 
       <div class="wrapper">
         <section class="index-box1">
@@ -42,78 +42,54 @@
               <li>Modelling: Logistic Regression with Scikit-Learn.</li>
               <li>iNterpret: summary of findings and suggestion.</li>
             </ul>
-            <br><p>view at Colab <i class="far fa-hand-point-right"></i><a href="https://colab.research.google.com/drive/1vq4bDWfvCDkp8oWnsOr_unAsdqpN7HlO?usp=sharing" target="_blank" rel="noopener noreferrer">https://colab.research.google.com/drive/1vq4bDWfvCDkp8oWnsOr_unAsdqpN7HlO?usp=sharing</a></p>
+            <br>
+            <br><p><i class="fas fa-globe" color:"blue" style="color:blue"></i><a href="https://colab.research.google.com/drive/1vq4bDWfvCDkp8oWnsOr_unAsdqpN7HlO?usp=sharing" target="_blank" rel="noopener noreferrer">View at Google Colab</a></p>
           </div>
-        </section>
+        </section>-->
 
         <section class="index-box2">
           <div class="index-boxlink-rectangle">
             <img class="imges-box" src="img/box2.png" alt="stacked bar chart">
-            <h3>2) Data Studio Visualization</h3>
-            <p>I build a dashboard to show a quick overview and obtain insights from this data. To build this dashboard, i obtain the dataset from kaggle.com.
+            <h3>1) Data Visualization</h3>
+            <p>I build a dashboard to show a quick overview and obtain insights from this data. To build this dashboard, I obtain the dataset from kaggle.com.
               This HR dataset then store into google data studio to create graphs and figures. This dataset consist of 15,000 rows and 10 columns.
               SQL query(case statement) is applied on this dataset by converting the satisfaction level(continuous data) into category and visualize in Stacked Bar chart.</p>
             <br><p>The intresting topic I could find out are:
                   <ul>
                     <li>Employee who work with 3-5 projects are less likey to leave the company.</li>
-                    <li>Average attrition rate is about 23.80% where HR and Accounting department have high dissatisfaction which lead to high attrition rate.</li>
-                    <li>Majority of employee with 2-3 years of experience in this company.</li>
+                    <li>Average attrition rate is about 23.80%. HR and Accounting department having high dissatisfaction level.</li>
+                    <li>Majority of employee with 2-3 years of experience in the company.</li>
                   </ul>
-            <br><p>view at Data Studio <i class="far fa-hand-point-right"></i><a href="https://datastudio.google.com/s/kwIbsRI38CI" target="_blank" rel="noopener noreferrer">https://datastudio.google.com/s/kwIbsRI38CI</a></p>
+            <br>
+            <br><p><i class="fas fa-globe" color:"blue" style="color:blue"></i><a href="https://datastudio.google.com/s/kwIbsRI38CI" target="_blank" rel="noopener noreferrer">View dashboard at Data Studio</a></p>
           </div>
         </section>
 
         <section class="index-box3">
           <div class="index-boxlink-rectangle">
-            <img class="imges-box" src="img/banner2.jpg" alt="Girl in a jacket">
-            <h3>3) Web Scraping</h3>
-            <p>First step of my News Article Analysis, I build a web scraping tool with Python. It enables me to download more than 200 news article in minutes.
-               Depends on topic that I'm interested, I can specify Keyword and Pages of result to scrap from Google News. Process goes as below.</p>
-            <br><p>Finding:
-              <ul>
-                   <li>search the specified Keyword (eg. Petronas),</li>
-                   <li>scrap articles URL from Google News result page,</li>
-                   <li>scrap article's Date, Title, Content (eg. 30 pages),</li>
-                   <li>Loop through number of pages specified,</li>
-                   <li>save as JSON format for further analysis (eg. NLP, Sentiment Analysis, Text Mining, K-means clustering)</li>
-                  </ul>
-            <br><p>view at Colab <i class="far fa-hand-point-right"></i><a href="www.facebok.com" target="_blank" rel="noopener noreferrer">www.facebook.com</a></p>
+            <img class="imges-box" src="img/thestar1.png" alt="Girl in a jacket">
+            <h3>2) Web Scraping</h3>
+            <p>I extracted of structured information from website (The Star News). In order to get the information from multiple articles,
+              I used scraping tool like Python and BeautifulSoup to parsing HTML from web.
+              A keyword should be placed on The Star New's search engine to generate an url.
+              The final information of title, full text and date of numerous news article will be stored inside NoSQL database (Firebase) for further analysis such as NLP.</p>
+            <br>
+            <br><p><i class="fas fa-globe" color:"blue" style="color:blue"></i><a href="https://colab.research.google.com/drive/1kER5k3V1jGKGwGnMCv281IRRcCqhCTnT?usp=sharing" target="_blank" rel="noopener noreferrer">View at Google Colab</a></p>
           </div>
         </section>
 
         <section class="index-box4">
           <div class="index-boxlink-rectangle">
-            <img class="imges-box" src="img/banner2.jpg" alt="Girl in a jacket">
-            <h3>4) Extract data from Firebase</h3>
-            <p>I build this ETL tool by using Python. This ETL tool goes through the process below.</p>
-            <ul>
-              <li>Extract CSV file,</li>
-              <li>Transform some of the column name & value</li>
-              <li>Load data into MySQL database</li>
-            </ul>
-            <br><p>Additional note:
-            <ul>
-              <li>Original data from Kaggle.</li>
-              <li>Database and Table created in MySQL before running the ETL.</li>
-              <li>Further analysis can be done by connecting MySQL to Redash visualization tool.</li>
-            </ul>
-            <br><p>view at Colab <i class="far fa-hand-point-right"></i><a href="www.facebok.com" target="_blank" rel="noopener noreferrer">www.facebook.com</a></p>
-          </div>
-        </section>
-
-        <section class="index-box5">
-          <div class="index-boxlink-rectangle">
-            <img class="imges-box" src="img/banner2.jpg" alt="Girl in a jacket">
-            <h3>5) Natural Language Processing(NLP)</h3>
-            <p>As previously I have save 200+ articles into JSON file, now I can start my News Article Analysis with Natural Language Processing (NLP).</p>
-            <ul>
-              <li>Load the JSON file which contains Date, Title, Content, and Link of articles.</li>
-              <li>Go through tokenization process and remove stopwords,</li>
-              <li>Optionally, may remove some non-meaningful words manually,</li>
-              <li>Then count Word Frequency.</li>
-              <li>Visualize by using Word Cloud.</li>
-            </ul>
-            <br><p>view at Colab <i class="far fa-hand-point-right"></i><a href="www.facebok.com" target="_blank" rel="noopener noreferrer">www.facebook.com</a></p>
+            <img class="imges-box" src="img/crime.png" alt="Girl in a jacket">
+            <h3>3) Natural Language Processing(NLP)</h3>
+            <p>In NLP the machine is tought to understand human languages.
+              Continue from previous project, load the data stored on Firestore.
+              Whole data then go thought tokenization process and remove meaningless words.
+              The frequent of words are shown from most common to least with respective number of times its appear from all the articles.
+              By visualize using WordCloud, we can easily spot what are the words frequently mention in The Star News.
+            </p>
+            <br>
+            <br><p><i class="fas fa-globe" color:"blue" style="color:blue"></i><a href="https://colab.research.google.com/drive/1et39QT3tH_bwDWCCa6Nzlmbp4ELDgzZH?usp=sharing" target="_blank" rel="noopener noreferrer">View at Google Colab</a></p>
           </div>
         </section>
 
@@ -136,10 +112,10 @@
         </ul>-->
         <a name="ref"></a>
         <ul class="footer-links-cases">
-          <li><i class="fab fa-linkedin"><a href="https://www.linkedin.com/in/alexlyk93/" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/alexlyk93</a></i></li>
-          <li><i class="fab fa-github"><a href="alexlyk93.github.io" target="_blank" rel="noopener noreferrer">alexlyk93.github.io</a></i></li>
-          <li><i class="fab fa-google"><a href="mailto:alexlyk93@gmail.com" target="_blank">alexlyk93@gmail.com</a></i></li>
-          <li><i class="far fa-address-book"><a href="https://api.whatsapp.com/send?phone=+60173693275" target="_blank" rel="noopener noreferrer">+6017-3693275</a></i></li>
+          <li><i class="fab fa-github"></i><a href="alexlyk93.github.io" target="_blank" rel="noopener noreferrer">Portfolio</a></li>
+          <li><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/alexlyk93/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><i class="fab fa-google"></i><a href="mailto:alexlyk93@gmail.com" target="_blank">Email</a></li>
+          <li><i class="fab fa-whatsapp"></i><a href="https://api.whatsapp.com/send?phone=+60173693275" target="_blank" rel="noopener noreferrer">Whatsapp</a></li>
         </ul>
       </footer>
     </div>
