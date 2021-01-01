@@ -257,8 +257,8 @@ header .header-cases {
 }
 
 .wrapper div h3 {
-
-  font-size: 55px;
+  font-family: Georgia,"EB Garamond",Times,serif;
+  font-size: 45px;
   font-weight: 600;
   line-height: 50px;
   color: #111;
@@ -267,27 +267,29 @@ header .header-cases {
 }
 
 .wrapper div p{
-
-  font-size: 50px;
+  font-family: Georgia,"EB Garamond",Times,serif;
+  font-size: 40px;
 
 
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5px;
+  line-height: 50px;
   color: #111;
-  text-align: left;
+  text-align: justify;
 }
 
 .wrapper div ul li{
-
-  font-size: 50px;
+  font-family: Georgia,"EB Garamond",Times,serif;
+  font-size: 40px;
 
 
   padding-top: 5px;
-  padding-left: 10px;
+  padding-left: 5px;
   padding-right: 15px;
-  padding-left: 3em;
+  padding-left: 1.8em;
   text-indent: -1.7em;
+  line-height: 50px;
   list-style: inside;
   color: #111;
   text-align: justify;
