@@ -145,7 +145,7 @@ header nav ul li{
 
 header nav ul a{
   font-family: Catamaran;
-  font-size: 16px;
+  font-size: 25px;
   color: #111;
   text-transform: none;
 }
@@ -170,6 +170,7 @@ header .header-cases {
 
   header nav ul li a {
     line-height: 60px;
+    font-size: 18px;
   }
 
 }
