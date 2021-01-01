@@ -217,7 +217,7 @@ header .header-cases {
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
-  width:50%;
+  width:80%;
   filter: drop-shadow(3px 3px 3px #666666);
 }
 
@@ -257,8 +257,8 @@ header .header-cases {
 }
 
 .wrapper div h3 {
-  font-family: Catamaran;
-  font-size: 45px;
+
+  font-size: 55px;
   font-weight: 600;
   line-height: 50px;
   color: #111;
@@ -267,20 +267,20 @@ header .header-cases {
 }
 
 .wrapper div p{
-  font-family: Catamaran;
-  font-size: 35px;
+
+  font-size: 50px;
 
 
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 5px;
   color: #111;
-  text-align: justify;
+  text-align: left;
 }
 
 .wrapper div ul li{
-  font-family: Catamaran;
-  font-size: 35px;
+
+  font-size: 50px;
 
 
   padding-top: 5px;
@@ -295,11 +295,11 @@ header .header-cases {
 
 .wrapper div a {
   font-family: Catamaran;
-  font-size: 35px;
+  font-size: 40px;
   font-weight: 500;
   line-height: 20px;
   padding-left: 10px;
-  padding-right: 50%;
+  padding-right: 30%;
   text-align: justify;
 }
 
