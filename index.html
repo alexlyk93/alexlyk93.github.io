@@ -14,7 +14,7 @@
       <a href="index.html" class='header-brand'>alex</a>
       <nav>
         <ul>
-          <li><a href="alexlyk93.github.io">Portfolio</a></li>
+          <li><a href="index.html">Portfolio</a></li>
           <li><a href="https://www.linkedin.com/in/alexlyk93/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
           <li><a href="index#ref">Contact</a></li>
         </ul>
@@ -32,8 +32,21 @@
       <div class="wrapper">
         <section class="index-box1">
           <div class="index-boxlink-rectangle">
-            <img class="imges-box" src="img/clus.png" alt="Girl in a jacket">
-            <h3>1) Exploratory Data Analysis</h3>
+            <img class="imges-box" src="img/tenure.png" alt="tenure_period">
+            <h3>1) Exploratory Data Analysis - Classification</h3>
+            <p>This is a telco customer's churn dataset from kaggle. OSEMN framework is implemented to complete this dataset project.
+              In this dataset we are looking the reason of customer left(churn). The churn rate in this dataset is 26.54%, which I consider quite high.
+              It is important to maintain existing customer than getting a new customer.
+              By using logistic regression model, we get an accurancy score of 80.60% .</p>
+            <br>
+            <br><p><i class="fas fa-globe" color:"blue" style="color:blue"></i><a href="https://colab.research.google.com/drive/1JzpcLJZLfT_oCkgzfdqh2Mbss9efZ_6f?usp=sharing" target="_blank" rel="noopener noreferrer">View code at Google Colab</a></p>
+          </div>
+        </section>
+
+        <section class="index-box2">
+          <div class="index-boxlink-rectangle">
+            <img class="imges-box" src="img/clus.png" alt="cluster_seg">
+            <h3>2) Exploratory Data Analysis - Clustering</h3>
             <p>This is a customer's mall dataset from kaggle. OSEMN framework is implemented to explore the data.
               In this dataset we would like to segment our customer into particular group. By using K-Means clustering to group similiar customer,
               the optimal number of cluster is 5. Since the segmentation of customer, this can provide a better quality services to meet customer expectation.
@@ -43,10 +56,10 @@
           </div>
         </section>
 
-        <section class="index-box2">
+        <section class="index-box3">
           <div class="index-boxlink-rectangle">
-            <img class="imges-box" src="img/box2.png" alt="stacked bar chart">
-            <h3>2) Data Visualization</h3>
+            <img class="imges-box" src="img/box2.png" alt="stacked_bar">
+            <h3>3) Data Visualization</h3>
             <p>I build a dashboard to show a quick overview and obtain insights from this data. To build this dashboard, I obtain the dataset from kaggle.com.
               This HR dataset then store into google data studio to create graphs and figures. This dataset consist of 15,000 rows and 10 columns.
               SQL query(case statement) is applied on this dataset by converting the satisfaction level(continuous data) into category and visualize in Stacked Bar chart.</p>
@@ -61,10 +74,10 @@
           </div>
         </section>
 
-        <section class="index-box3">
+        <section class="index-box4">
           <div class="index-boxlink-rectangle">
-            <img class="imges-box" src="img/thestar1.png" alt="Girl in a jacket">
-            <h3>3) Web Scraping</h3>
+            <img class="imges-box" src="img/thestar1.png" alt="the_star_search">
+            <h3>4) Web Scraping</h3>
             <p>I extracted of structured information from website (The Star News). In order to get the information from multiple articles,
               I used scraping tool like Python and BeautifulSoup to parsing HTML from web.
               A keyword should be placed on The Star New's search engine to generate an url.
@@ -74,10 +87,10 @@
           </div>
         </section>
 
-        <section class="index-box4">
+        <section class="index-box5">
           <div class="index-boxlink-rectangle">
-            <img class="imges-box" src="img/crime.png" alt="Girl in a jacket">
-            <h3>4) Natural Language Processing(NLP)</h3>
+            <img class="imges-box" src="img/crime.png" alt="crime_word">
+            <h3>5) Natural Language Processing(NLP)</h3>
             <p>In NLP the machine is tought to understand human languages.
               Continue from previous project, load the data stored on Firestore.
               Whole data then go thought tokenization process and remove meaningless words.
